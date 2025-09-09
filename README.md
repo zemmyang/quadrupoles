@@ -1,69 +1,7 @@
-# React + TypeScript + Vite
+# AN INVESTIGATION INTO THE MULTIPOLE MOMENTS OF A GRAVITATING BODY AND ITS EFFECTS ON ORBITS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Compiled: February 24, 2015
 
-Currently, two official plugins are available:
+In the Kepler Problem, it is assumed that the attractor and the orbiting body to be both point particles. In this paper, we removed this assumption for the attractor and assume that it has a shape. To do this, we derived the general form of the additional terms in the multipole expansion. Specifically, we look at the quadrupole moment of a gravitating body and used this as the approximation of our extended body. Using analytical methods, we were able to show that only the the z-component of the angular momentum vector remains constant, and that orbits starting at the equatorial or azimuthal plane stay on a single plane. We also used numerical methods to show that the orbit varies as the initial conditions approach the attractor.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Thesis submitted to the Faculty of the Physics Department of the Ateneo de Manila University, in partial fulfillment of the requirements for the degree of Bachelor of Science in Physics.

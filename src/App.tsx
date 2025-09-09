@@ -77,7 +77,7 @@ function App() {
                 attractorSize: 0.00001,
                 finalTime: 300,
                 initialPosition: { x: 4, y: 0, z: 0 },
-                initialVelocity: { x: 0, y: 3, z: 3 }
+                initialVelocity: { x: 0, y: 2, z: 3 }
               });
             }}
           >
