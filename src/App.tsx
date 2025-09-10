@@ -37,7 +37,7 @@ function App() {
         <Col className="text-light" style={{ textAlign: 'center' }}>
           <h1>Effects of Multipole Moments on Gravitational Orbits</h1>
           <p className="lead" style={{ maxWidth: '800px', margin: '0 auto' }}>
-            A little React simulator based on my BSc thesis (PDF link here).
+            A little React simulator based on my BSc thesis (<a href="https://github.com/zemmyang/quadrupoles/blob/main/thesis.pdf">PDF link here</a>). <a href='https://github.com/zemmyang/quadrupoles/'>Github page here</a>.
             </p>
             <p style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'left' }}>
             Note that: 
